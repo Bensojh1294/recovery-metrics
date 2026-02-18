@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 st.set_page_config(page_title="System Calibration Dashboard", layout="wide")
 
 st.title("🛡️ System Calibration Log")
-st.write("Objectively tracking postoperative recovery metrics.")
+st.write("Objectively tracking postoperative  metrics.")
 
 sheet_url = st.sidebar.text_input("Paste Google Sheet URL here:", 
                                  placeholder="https://docs.google.com/spreadsheets/d/...")
